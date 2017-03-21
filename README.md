@@ -1,2 +1,3 @@
 # capstoneSite
-Website For Capstone
+Website For Capstone Class
+capstone.mcwilde.com
