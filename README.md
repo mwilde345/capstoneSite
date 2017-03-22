@@ -2,7 +2,7 @@
 Website For Capstone
 
 all the page files are in site.
-view the site right now at capstone.mcwilde.com
+view the site right now at http://capstone.mcwilde.com
 
 While you are working on your page, just host it locally with xampp to view your changes.
 
