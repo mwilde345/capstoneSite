@@ -53,8 +53,9 @@ jQuery("body").attr('class','index-1');
 <!--=======content================================-->
 
 <section id="content">
-	<center> 
-
+	<link rel="stylesheet" type="text/css" href="./contact-form.css">
+	<center>
+<div class="container">
 
 	<?php
 	if (!$messageSent){
@@ -119,7 +120,8 @@ jQuery("body").attr('class','index-1');
 				</div>
 			</div>
 		</form>
-	</center> 
+		</div>
+	</center>
 		<?php
 	}
 	else {
