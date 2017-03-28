@@ -53,8 +53,8 @@ jQuery("body").attr('class','index-1');
 <!--=======content================================-->
 
 <section id="content">
-	<link rel="stylesheet" type="text/css" href="./contact-form.css">
-	<center>
+	<link rel="stylesheet" type="text/css" href="./service-form.css">
+	<center> 
 <div class="container">
 
 	<?php
