@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include("./header.php");?>
 <script type="text/javascript">
 jQuery("nav .sf-menu li[class='current']").attr('class','');

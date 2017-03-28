@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include("./header.php");?>
 <script type="text/javascript">
 jQuery("nav .sf-menu li[class='current']").attr('class','');
@@ -48,7 +49,7 @@ jQuery("body").attr('class','index-1');
 							<a class="button request_services">Request Service</a>
 						</article>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
