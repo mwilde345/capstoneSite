@@ -53,7 +53,7 @@ jQuery("body").attr('class','index-1');
 <!--=======content================================-->
 
 <section id="content">
-	<?php include("./footer.php");?>
+	<center> 
 
 
 	<?php
@@ -119,7 +119,7 @@ jQuery("body").attr('class','index-1');
 				</div>
 			</div>
 		</form>
-
+	</center> 
 		<?php
 	}
 	else {
@@ -127,5 +127,5 @@ jQuery("body").attr('class','index-1');
 	}
 	echo "$header2";
 	?>
-
+<?php include("./footer.php");?>
 </section>
