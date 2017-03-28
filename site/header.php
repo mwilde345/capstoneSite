@@ -15,7 +15,7 @@
 	<script src="js/touchTouch.jquery.js"></script>
 	<script src="js/jquery.stellar.js"></script>
 	<script src="js/script.js"></script>
-	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+	<script src='//maps.googleapis.com/maps/api/js?key=AIzaSyCHp9pgkgk8yhldvnoEuGKMQh9fHhwLKQE'></script>
 	<!--[if (gt IE 9)|!(IE)]><!-->
 	<script src="js/jquery.mobile.customized.min.js"></script>
 	<script src="js/wow.js"></script>
