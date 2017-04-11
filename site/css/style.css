@@ -1202,10 +1202,15 @@ p {
   text-align: center;
 }
 #footer .footer_bottom {
-  height: 35px;
+  min-height: 50px;
   text-align: center;
   background: #423e3e;
 }
+#footer .footer_bottom p {
+  line-height: 50px;
+  color : white
+}
+
 @media only screen and (max-width: 767px) {
   #footer .copyright .btn {
     width: 80px;
@@ -1256,7 +1261,7 @@ p {
   }
 }
 /*========================================================
-								RESPONSIVE LAYOUTS STYLES 
+								RESPONSIVE LAYOUTS STYLES
 =========================================================*/
 @media only screen and (max-width: 1199px) {
   .sample {
