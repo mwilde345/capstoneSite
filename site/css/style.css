@@ -56,7 +56,7 @@ h5 a:hover {
 =========================================================*/
 #header {
   padding: 20px 0;
-  background: url(../images/header_bg.jpg) no-repeat;
+  background: url(../images/sheetmetal.jpg) no-repeat;
   background-size: cover;
   text-align: center;
   height: 556px;
@@ -275,7 +275,7 @@ h5 a:hover {
 /* Stuck menu styles
 ========================================================*/
 .isStuck {
-  background: url(../images/header_bg.jpg) bottom;
+  background: url(../images/sheetmetal.jpg) bottom;
   background-size: cover;
   z-index: 9;
   padding: 0 0 10px 0;

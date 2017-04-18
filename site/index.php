@@ -10,30 +10,30 @@ jQuery("nav .sf-menu li").filter(":contains('Home')").attr('class','current');
 	<div class="full-width-container block-1">
 		<div class="camera_container">
 			<div id="camera_wrap">
-				<div class="item" data-src="images/index_img_slider-1.png">
+				<div class="item" data-src="images/sheetmetal.jpg">
 					<div class="camera_caption fadeIn">
-						<h3>Good Metal</h3>
+						<h3>Top Quality Work</h3>
 					</div>
 				</div>
-				<div class="item" data-src="images/index_img_slider-2.png">
+				<div class="item" data-src="images/modernbuilding.jpg">
 					<div class="camera_caption fadeIn">
-						<h3>So Metallic</h3>
+						<h3>Modern Knowledge and Skills</h3>
 					</div>
 				</div>
-				<div class="item" data-src="images/index_img_slider-2.png">
+				<div class="item" data-src="images/hvactechnician.jpg">
 					<div class="camera_caption fadeIn">
-						<h3>Save Some Cash Money</h3>
+						<h3>Expert Technicians</h3>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="full-width-container block-2">
+	<!-- <div class="full-width-container block-2">
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
 					<header>
-						<h2><span>Our works</span></h2>
+						<h2><span>Past Projects</span></h2>
 					</header>
 					<div class="isotope clearfix">
 						<a href="images/index_img-1-big.jpg" class="item-1 w-1"><div class="img_block"><img src="images/index_img-1.jpg" alt="img"></div><i>+</i></a>
@@ -47,24 +47,15 @@ jQuery("nav .sf-menu li").filter(":contains('Home')").attr('class','current');
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="full-width-container block-3">
+	</div> -->
+	<div class="full-width-container block-2">
 		<div class="container">
 			<div class="row">
-				<div class="grid_4">
+				<div class="grid_12">
 					<header>
-						<h2><span>Hi!</span></h2>
+						<h2><span>About our Company</span></h2>
 					</header>
-					<p class="first">Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste.</p>
-					<p class="secont">Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed <br> Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros.</p>
-					<a href="#" class="btn">more</a>
-				</div>
-				<div class="grid_7 offset_1">
-					<header>
-						<h2>From the Blog</h2>
-					</header>
-					<h4><a href="#">10 Nov</a></h4>
-					<div class="img_block"><img src="images/index_img-7.jpg" alt=""></div>
+					<div class="img_block"><img src="images/modernbuilding.jpg" alt=""></div>
 					<p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed <br><br>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur</p>
 					<a href="#" class="btn">more</a>
 				</div>
