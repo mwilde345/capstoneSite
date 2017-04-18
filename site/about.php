@@ -22,11 +22,12 @@ jQuery("body").attr('class','index-3');
 				<div class="grid_7">
 					<article>
 						<header>
-							<h4><a href="#">Hivamus at magna non nuncerto limonit </a></h4>
+							<h4><a href="https://www.tabbcertified.org/site/public/content/index/home" target="_blank">At Payson Sheet Metal we are TABB certified </a></h4>
 						</header>
-						<div class="img_block"><img src="images/index-3_img-1.jpg" alt></div>
-						<p class="first">Rehoncus. Aliquam nibh antegestas id ictum ado. Praesenterto faucibus maleada faucibusnec laeetert metus id laoreet. </p>
-						<p class="second">Nullam consectetur orci sed nulla facilisisequaterto. Curabitur vel lorem sit amet nulla perermentum. Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Raesent faucibus malesuada faucibus. Donecertolin laoreet metus id laoreet malesuadarem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequat. </p>
+						<div class="img_block"><img src="images/logos/TABB.png" alt style="width:75%;"></div>
+						<p class="first"> 1 TABB Contractor...</p>
+						<p class="first"> 2 TABB Supervisors...</p>
+						<p class="first"> 4 TABB Technicians...</p>
 						<footer>
 							<div class="attributes">
 								<div class="line-1">
@@ -78,9 +79,9 @@ jQuery("body").attr('class','index-3');
 					</article>
 					<article>
 						<header>
-							<h4><a href="#">Givamus at magna non nuncerto limonit </a></h4>
+							<h4><a href="http://utahsheetmetal.com/" target="_blank">We are members of SMIWIA 312</a></h4>
 						</header>
-						<div class="img_block"><img src="images/index-3_img-2.jpg" alt></div>
+						<div class="img_block"><img src="images/logos/SMWIA_Logo.png" alt style="width:50%;"></div>
 						<p class="first">Johoncus. Aliquam nibh antegestas id ictum ado. Praesenterto faucibus maleada faucibusnec laeetert metus id laoreet wer.</p>
 						<p class="second">Ollam consectetur orci sed nulla facilisisequaterto. Curabitur vel lorem sit amet nulla perermentum. Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Raesent faucibus malesuada faucibus. Donecertolin laoreet metus id laoreet malesuadarem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequat. </p>
 						<footer>
@@ -134,9 +135,9 @@ jQuery("body").attr('class','index-3');
 					</article>
 					<article>
 						<header>
-							<h4><a href="#">At magna non nuncerto limonit</a></h4>
+							<h4><a href="https://www.smacna.org/" target="_blank">SMACNA members</a></h4>
 						</header>
-						<div class="img_block"><img src="images/index-3_img-3.jpg" alt></div>
+						<div class="img_block"><img src="images/logos/SMACNA_Logo.png" alt style="width:75%"></div>
 						<p class="first">Aliquam nibh antegestas id ictum ado. Praesenterto faucibus maleada faucibusnec laeetert metus id laoreet </p>
 						<p class="second">Nullam consectetur orci sed nulla facilisisequaterto. Curabitur vel lorem sit amet nulla perermentum. Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Raesent faucibus malesuada faucibus. Donecertolin laoreet metus id laoreet malesuadarem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequater. </p>
 						<footer>
