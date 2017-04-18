@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <?php
 
+// Just making sure the fields are set.
+$messageSent = false;
+$nameErr     = "";
+$companyErr  = "";
+$emailErr    = "";
+$messageErr  = "";
+$header2     = "";
+
 if (isset($_REQUEST["submit"])) {
 	$name=$_POST['name'];
 	$company=$_POST['company'];
@@ -9,8 +17,11 @@ if (isset($_REQUEST["submit"])) {
 	$message=$_POST['message'];
 	$subject = $_POST['subject'];
 
+	// this is just so there is no error message, i will leave for possible future use
+	$found   = "";
+
 	$formcontent="From: $name\nCompany: $company\nPhone: $phone\nSubject: $subject\nHow Found: $found\n\nMessage: \n$message";
-	$recipient = "test@test.com";
+	$recipient = "nathangcoats@gmail.com";
 	$mailheader = "From: $email ";
 
 
@@ -30,14 +41,11 @@ if (isset($_REQUEST["submit"])) {
 	}
 
 
-
-
-
-if (!$nameErr && !$companyErr && !$emailErr && !$messageErr){
+	if (!$nameErr && !$companyErr && !$emailErr && !$messageErr){
 		mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 		echo "Thank You! Your message was sent.";
-		$messageSent = "true";
-}
+		$messageSent = true;
+	}
 
 
 
@@ -58,7 +66,7 @@ jQuery("body").attr('class','index-1');
 <div class="container">
 
 	<?php
-	if (!$messageSent){
+	if ( !$messageSent ) {
 		$header = "  <h1>Service Request Form:</h1>
 		Please fill out the following information and someone will contact you shortly: <br> <br>";
 		echo "$header";
