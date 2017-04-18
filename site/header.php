@@ -49,11 +49,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
-					<div class="social">
-						<a href="#"><span class="bd-ra fa fa-facebook"></span></a>
-						<a href="#"><span class="bd-ra fa fa-tumblr"></span></a>
-						<a href="#"><span class="bd-ra fa fa-google-plus"></span></a>
-					</div>
 					<h1><a href="index.php">Payson Sheet Metal<span>Commercial work only, we do no residential work.</span></a></h1>
 					<nav>
 						<ul class="sf-menu">
@@ -74,6 +69,7 @@
 							<li><a href="projects.php">Projects</a></li>
 							<li><a href="about.php">About Us</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
+							<li><a href="whyus.php">Why Choose Us?</a></li>
 						</ul>
 					</nav>
 				</div>
