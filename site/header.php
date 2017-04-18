@@ -54,7 +54,7 @@
 						<a href="#"><span class="bd-ra fa fa-tumblr"></span></a>
 						<a href="#"><span class="bd-ra fa fa-google-plus"></span></a>
 					</div>
-					<h1><a href="index.html">Payson Sheet Metal<span>Commercial work only, we do no residential work.</span></a></h1>
+					<h1><a href="index.php">Payson Sheet Metal<span>Commercial work only, we do no residential work.</span></a></h1>
 					<nav>
 						<ul class="sf-menu">
 							<li class="current"><a href="index.php">Home</a>
@@ -70,7 +70,7 @@
 									<li><a href="#">Lorem ipsum</a></li>
 								</ul>
 							</li>
-							<li><a href="services.php">Services</a></li>
+							<li><a href="servicerequest.php">Services</a></li>
 							<li><a href="projects.php">Projects</a></li>
 							<li><a href="about.php">About Us</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
