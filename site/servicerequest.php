@@ -107,6 +107,7 @@ jQuery("body").attr('class','index-1');
 	}
 	echo "$header2";
 	?>
-<?php include("./footer.php");?>
+
 </section>
 </body>
+<?php include("./footer.php");?>
