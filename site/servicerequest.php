@@ -39,8 +39,7 @@ if (isset($_REQUEST["submit"])) {
 	}
 }
 ?>
-<head>
-<link rel="stylesheet" href="./style.css">  <!-- this line might be uncecessary leaving it just in case --> 
+
 <?php include("./header.php");?>
 <script type="text/javascript">
 jQuery("nav .sf-menu li[class='current']").attr('class','');
@@ -48,7 +47,6 @@ jQuery("nav .sf-menu li").filter(":contains('Services')").attr('class','current'
 jQuery("body").attr('class','index-1');
 </script>
 
-</head>
 <!--=======content================================-->
 <body>
 <section id="content">
@@ -64,7 +62,7 @@ jQuery("body").attr('class','index-1');
 	?>
 
 
-<div class="container">
+<div class="form-container">
 	<form action="servicerequest.php" method="post">
 		<label>Name:*</label>
 		<input type="text" name="name" placeholder="First & Last Name">
