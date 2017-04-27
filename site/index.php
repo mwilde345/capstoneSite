@@ -89,11 +89,11 @@ jQuery("nav .sf-menu li").filter(":contains('Home')").attr('class','current');
 			</div>
 		</div>
 	</div>
-	<div class="full-width-container block-6">
+	<!--<div class="full-width-container block-6">
 		<div class="google-map-api">
 			<div id="map-canvas" class="gmap"></div>
 		</div>
-	</div>
+	</div>-->
 </section>
 <!--<script type="text/javascript">
 		google_api_map_init();
