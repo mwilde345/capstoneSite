@@ -1,7 +1,7 @@
 (function($,undefined){
-	var 
+	var
 		def={
-			stuckClass:'isStuck'			
+			stuckClass:'isStuck'
 		}
 		,doc=$(document),anim = false;
 
@@ -19,10 +19,11 @@
 				,tmr
 
 			$(window).resize(function(){
-				clearTimeout(tmr)				
+				$(".isStuck img").css("width:20%");
+				clearTimeout(tmr)
 				clone.css({top:isStuck?0:-stuckedHeight,visibility:isStuck?'visible':'hidden'})
 				tmr=setTimeout(function(){
-					posY=$this.offset().top//+$this.outerHeight()				
+					posY=$this.offset().top//+$this.outerHeight()
 					height=$this.outerHeight()
 					stuckedHeight=clone.outerHeight()
 					opened=$.cookie&&$.cookie('panel1')==='opened'
@@ -32,7 +33,7 @@
 			}).resize()
 
 			clone.css({
-				position:'fixed'				
+				position:'fixed'
 				,width:'100%'
 			})
 
@@ -45,12 +46,12 @@
 					else
 						opened=true
 				})
-			
+
 			doc
 				.on('scroll',function(){
 					var scrollTop=doc.scrollTop()
 
-					if(scrollTop>=posY&&!isStuck){						
+					if(scrollTop>=posY&&!isStuck){
 						clone
 							.stop()
 							.css({visibility:'visible'})
@@ -60,10 +61,10 @@
 							},{
 
 							})
-							
+
 						isStuck=true
 					}
-					
+
 					if(scrollTop<posY+height&&isStuck){
 						if ($('.search-form-toggle').length > 0) {
 							var o_stuck = $('.search-form-toggle'),
@@ -93,11 +94,11 @@
 									clone.css({visibility:'hidden'})
 								}
 							});
-						
+
 						isStuck=false;
 
-					}			
-				})				
+					}
+				})
 				.trigger('scroll')
 		})
 	}
