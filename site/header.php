@@ -49,7 +49,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
-					<img src="images/logos/PSM-Logo2.png" width="35%" style="align:left"/> <span><h1><a href="index.php">Payson Sheet Metal<span>Commercial work only, we do no residential work.</span></a></h1></span>
+					<img src="images/logos/PSM-Logo2.png" width="35%" style="margin:20px"/> <!--<span><h1><a href="index.php">Payson Sheet Metal<span>Commercial work only, we do no residential work.</span></a></h1></span>-->
 					<nav>
 						<ul class="sf-menu">
 							<li class="current"><a href="index.php">Home</a></li>
