@@ -319,6 +319,9 @@ input[type=submit]:hover {
   padding: 0 0 10px 0;
   border-bottom: 1px solid #d94d3a;
 }
+.isStuck img {
+  width: 20%;
+}
 .isStuck .social {
   display: none;
 }
