@@ -52,24 +52,13 @@
 					<h1><a href="index.php">Payson Sheet Metal<span>Commercial work only, we do no residential work.</span></a></h1>
 					<nav>
 						<ul class="sf-menu">
-							<li class="current"><a href="index.php">Home</a>
-								<ul>
-									<li><a href="#">Lorem ipsum</a></li>
-									<li><a href="#">Lorem ipsum</a>
-										<ul>
-											<li><a href="#">Lorem ipsum</a></li>
-											<li><a href="#">Lorem ipsum</a></li>
-											<li><a href="#">Lorem ipsum</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Lorem ipsum</a></li>
-								</ul>
-							</li>
+							<li class="current"><a href="index.php">Home</a></li>
 							<li><a href="servicerequest.php">Services</a></li>
 							<li><a href="projects.php">Projects</a></li>
 							<!-- <li><a href="about.php">About Us</a></li> -->
-							<li><a href="contact.php">Contact Us</a></li>
 							<li><a href="whyus.php">Why Choose Us?</a></li>
+							<li><a href="contact.php">Contact Us</a></li>
+
 						</ul>
 					</nav>
 				</div>

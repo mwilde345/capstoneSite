@@ -57,7 +57,7 @@ jQuery("nav .sf-menu li").filter(":contains('Home')").attr('class','current');
 					</header>
 					<div class="img_block"><img src="images/modernbuilding.jpg" alt=""></div>
 					<p>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed <br><br>Gamus at magna non nunc tristique rhoncuseri tym. Aliquam nibh ante, egestas id dictum aterert commodo re luctus libero. Praesent faucibus malesuada cibuste. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur</p>
-					<a href="#" class="btn">more</a>
+					<a href="whyus.php" class="btn">more</a>
 				</div>
 			</div>
 		</div>
@@ -95,11 +95,11 @@ jQuery("nav .sf-menu li").filter(":contains('Home')").attr('class','current');
 		</div>
 	</div>
 </section>
-<script type="text/javascript">
+<!--<script type="text/javascript">
 		google_api_map_init();
 		function google_api_map_init(){
 			var map;
-			var coordData = new google.maps.LatLng(parseFloat(40.6894388), parseFloat(-73.9036233,10));
+			var coordData = new google.maps.LatLng(parseFloat(40.049785), parseFloat(-111.732582));
 
 			var styleArray = [
 				{"featureType":"water","stylers":[{"color":"#021019"}]},
@@ -145,5 +145,5 @@ jQuery("nav .sf-menu li").filter(":contains('Home')").attr('class','current');
 			google.maps.event.addDomListener(window, "load", initialize);
 
 		}
-</script>
+</script>-->
 <?php include("./footer.php");?>
