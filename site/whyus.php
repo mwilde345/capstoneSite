@@ -15,6 +15,7 @@ jQuery("body").attr('class','index-1');
 					<header>
 						<h2><span>Why Choose Us?</span></h2>
 					</header>
+					<h3>We do tagging and identification of HVAC equipment and Piping!</h3>
 					<p>We are awesome!</p>
 					<p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut</p>
 				</div>
@@ -138,7 +139,7 @@ jQuery("body").attr('class','index-1');
 					</div>
 
 				</div>
-				
+
 			</div>
 		</div>
 

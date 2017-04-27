@@ -3,7 +3,7 @@
 	<title>Payson Sheet Metal</title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/logos/psm_favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/touchTouch.css">
@@ -53,15 +53,17 @@
 					<nav>
 						<ul class="sf-menu">
 							<li class="current"><a href="index.php">Home</a></li>
-							<li><a href="servicerequest.php">Services</a></li>
+							<li><a href="servicerequest.php">Service Request</a></li>
 							<li><a href="projects.php">Projects</a></li>
 							<!-- <li><a href="about.php">About Us</a></li> -->
 							<li><a href="whyus.php">Why Choose Us?</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
-
 						</ul>
 					</nav>
 				</div>
+			</div>
+			<div class="row">
+				<img src="images/logos/PSM-Logo2.png" width="50%"/>
 			</div>
 		</div>
 	</div>
